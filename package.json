@@ -1,0 +1,23 @@
+{
+  "name": "ncaau-1",
+  "version": "1.0.0",
+  "description": "North Carolina Animal Advocates United",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omnicoder9/ncaau-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omnicoder9/ncaau-1/issues"
+  },
+  "homepage": "https://github.com/omnicoder9/ncaau-1#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0"
+  }
+}

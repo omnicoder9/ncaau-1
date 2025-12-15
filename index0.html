@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyGroup – Grassroots Activism</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --navy: #0b1f3a;
+    }
+
+    body {
+      scroll-behavior: smooth;
+    }
+
+    .bg-navy {
+      background-color: var(--navy);
+    }
+
+    .hero {
+      background: linear-gradient(rgba(11,31,58,0.85), rgba(11,31,58,0.85)),
+                  url("https://images.unsplash.com/photo-1520975916090-3105956dac38");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 6rem 1rem;
+    }
+
+    .initiative-img {
+      height: 220px;
+      object-fit: cover;
+      border-radius: 0.75rem;
+    }
+
+    footer {
+      background-color: var(--navy);
+      color: white;
+    }
+
+    .social-btn i {
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-navy fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">MyGroup</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Initiatives</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#initiative1">Community Outreach</a></li>
+            <li><a class="dropdown-item" href="#initiative2">Education & Awareness</a></li>
+            <li><a class="dropdown-item" href="#initiative3">Policy Advocacy</a></li>
+            <li><a class="dropdown-item" href="#initiative4">Mutual Aid</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#news">MyGroup in the News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+      </ul>
+
+      <button class="btn btn-outline-light ms-lg-3" id="themeToggle" aria-label="Toggle theme">
+        <i class="bi bi-sun-fill"></i>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero text-center" id="top">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Grassroots Action. Real Change.</h1>
+    <p class="lead mt-3">MyGroup is a community-driven activism club working for a more just and compassionate world.</p>
+  </div>
+</section>
+
+<!-- Initiatives -->
+<section class="py-5" id="initiatives">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Initiatives</h2>
+
+    <div class="row g-4 align-items-center mb-5" id="initiative1">
+      <div class="col-md-6">
+        <img class="img-fluid initiative-img w-100" src="https://images.unsplash.com/photo-1520974735194-6c0b7c30e9f4" alt="Community Outreach">
+      </div>
+      <div class="col-md-6">
+        <h3>Community Outreach</h3>
+        <p>We organize local events, canvassing efforts, and volunteer programs that build relationships and empower people to take action in their own neighborhoods.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center mb-5 flex-md-row-reverse" id="initiative2">
+      <div class="col-md-6">
+        <img class="img-fluid initiative-img w-100" src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Education and Awareness">
+      </div>
+      <div class="col-md-6">
+        <h3>Education & Awareness</h3>
+        <p>Through workshops, teach-ins, and online content, we help people understand the issues and develop the skills needed for effective activism.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center mb-5" id="initiative3">
+      <div class="col-md-6">
+        <img class="img-fluid initiative-img w-100" src="https://images.unsplash.com/photo-1551836022-4c4c79ecde51" alt="Policy Advocacy">
+      </div>
+      <div class="col-md-6">
+        <h3>Policy Advocacy</h3>
+        <p>We engage with decision-makers, support grassroots campaigns, and advocate for policies that reflect our shared values.</p>
+      </div>
+    </div>
+
+    <div class="row g-4 align-items-center" id="initiative4">
+      <div class="col-md-6">
+        <img class="img-fluid initiative-img w-100" src="https://images.unsplash.com/photo-1593113598332-cd288d649433" alt="Mutual Aid">
+      </div>
+      <div class="col-md-6">
+        <h3>Mutual Aid</h3>
+        <p>We coordinate mutual aid projects that directly support people in need through solidarity, not charity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section class="py-5 bg-body-tertiary" id="about">
+  <div class="container">
+    <h2>About Us</h2>
+    <p>MyGroup is a grassroots activism club made up of volunteers who believe that collective action can create meaningful, lasting change.</p>
+  </div>
+</section>
+
+<!-- News -->
+<section class="py-5" id="news">
+  <div class="container">
+    <h2>MyGroup in the News</h2>
+    <p>Highlights of media coverage, interviews, and press mentions will appear here.</p>
+  </div>
+</section>
+
+<!-- Resources -->
+<section class="py-5 bg-body-tertiary" id="resources">
+  <div class="container">
+    <h2>Resources</h2>
+    <p>Guides, reading lists, toolkits, and links to partner organizations.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="py-5" id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Email us or connect with us on social media.</p>
+
+    <div class="d-flex flex-wrap gap-2 mt-3">
+      <a class="btn btn-outline-primary social-btn" href="#"><i class="bi bi-facebook"></i></a>
+      <a class="btn btn-outline-primary social-btn" href="#"><i class="bi bi-instagram"></i></a>
+      <a class="btn btn-outline-primary social-btn" href="#"><i class="bi bi-tiktok"></i></a>
+      <a class="btn btn-outline-primary social-btn" href="#"><i class="bi bi-youtube"></i></a>
+      <a class="btn btn-outline-primary social-btn" href="#"><i class="bi bi-discord"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-4 text-center">
+  <div class="container">
+    <small>© <span id="year"></span> MyGroup. All rights reserved.</small>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  const toggleBtn = document.getElementById('themeToggle');
+  const html = document.documentElement;
+
+  toggleBtn.addEventListener('click', () => {
+    const current = html.getAttribute('data-bs-theme');
+    const next = current === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-bs-theme', next);
+    toggleBtn.innerHTML = next === 'dark'
+      ? '<i class="bi bi-sun-fill"></i>'
+      : '<i class="bi bi-moon-fill"></i>';
+  });
+
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
